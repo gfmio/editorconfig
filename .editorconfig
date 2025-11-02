@@ -387,7 +387,7 @@ indent_style = space
 indent_size = 4
 
 # R
-[*.{r,R,Rnw}]
+[*.{r,R,Rnw,Rmd}]
 indent_style = space
 indent_size = 2
 
