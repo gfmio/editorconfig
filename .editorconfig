@@ -17,6 +17,7 @@ max_line_length = 120
 [*.{js,jsx,ts,tsx,mjs,cjs,mts,cts}]
 indent_style = space
 indent_size = 2
+# WARNING: 'quote_type' is not part of the official EditorConfig spec and is not supported by all editors/tools.
 quote_type = single
 
 # JSON, JSONC, JSON5
