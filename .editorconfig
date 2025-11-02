@@ -97,7 +97,11 @@ indent_size = 4
 
 # Objective-C and Objective-C++ files
 # NOTE: The `.m` extension is used by both Objective-C and MATLAB.
-# To avoid ambiguity and ensure correct formatting, we separate Objective-C/Objective-C++ files here.
+# To avoid ambiguity and ensure correct formatting:
+#   - This pattern applies Objective-C/Objective-C++ formatting to all `.m` and `.mm` files by default.
+#   - A more specific pattern for MATLAB files in `matlab/` directories appears later in this file and will override this one.
+#   - The order of these patterns is critical: do not move or reorder them.
+#   - To ensure correct formatting, always place MATLAB `.m` files inside `matlab/` directories.
 [*.{m,mm}]
 indent_style = space
 indent_size = 4
