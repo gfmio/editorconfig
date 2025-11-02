@@ -90,10 +90,16 @@ indent_size = 4
 max_line_length = 100
 
 # C/C++ files
-[*.{c,h,cpp,hpp,cc,cxx,c++,hh,hxx,h++,m,mm}]
+[*.{c,h,cpp,hpp,cc,cxx,c++,hh,hxx,h++}]
 indent_style = space
 indent_size = 4
 
+# Objective-C and Objective-C++ files
+# NOTE: The `.m` extension is used by both Objective-C and MATLAB.
+# To avoid ambiguity and ensure correct formatting, we separate Objective-C/Objective-C++ files here.
+[*.{m,mm}]
+indent_style = space
+indent_size = 4
 # C# files
 [*.{cs,csx,cake}]
 indent_style = space
