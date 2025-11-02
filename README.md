@@ -51,7 +51,7 @@ EditorConfig helps maintain consistent coding styles across different editors an
 
 ## What's Included
 
-This configuration covers **75+ languages and file types** with conventions based on official style guides and community best practices.
+This configuration covers **50+ programming languages** and over **75 languages and file types** (including markup, config, and data files), with conventions based on official style guides and community best practices.
 
 ### Programming Languages
 
