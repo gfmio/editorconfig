@@ -444,7 +444,7 @@ indent_style = space
 indent_size = 2
 
 # Apache config
-[{.htaccess,*.conf}]
+[{.htaccess,apache*.conf,httpd.conf}]
 indent_style = space
 indent_size = 2
 
