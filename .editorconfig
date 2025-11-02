@@ -230,7 +230,7 @@ insert_final_newline = false
 trim_trailing_whitespace = false
 
 # Binary files - no modifications
-[*.{ico,png,jpg,jpeg,gif,webp,svg,ttf,woff,woff2,eot,otf,mp3,mp4,avi,mkv,pdf,zip,tar,gz,rar,7z,exe,dll,so,dylib}]
+[*.{ico,png,jpg,jpeg,gif,webp,ttf,woff,woff2,eot,otf,mp3,mp4,avi,mkv,pdf,zip,tar,gz,rar,7z,exe,dll,so,dylib}]
 indent_style = unset
 indent_size = unset
 end_of_line = unset
