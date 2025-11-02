@@ -519,10 +519,6 @@ indent_style = space
 indent_size = 2
 
 # RMarkdown
-[*.Rmd]
-indent_style = space
-indent_size = 2
-
 # SAS
 [*.sas]
 indent_style = space
