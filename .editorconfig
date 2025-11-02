@@ -101,6 +101,7 @@ indent_size = 4
 [*.{m,mm}]
 indent_style = space
 indent_size = 4
+
 # C# files
 [*.{cs,csx,cake}]
 indent_style = space
