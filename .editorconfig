@@ -54,7 +54,7 @@ tab_width = 4
 # Makefiles
 [{Makefile,makefile,*.mk,*.mak,GNUmakefile}]
 indent_style = tab
-indent_size = 4
+tab_width = 4
 
 # Shell scripts
 [*.{sh,bash,zsh,fish}]
